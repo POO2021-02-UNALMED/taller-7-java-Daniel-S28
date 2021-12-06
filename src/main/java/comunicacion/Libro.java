@@ -20,9 +20,7 @@ public class Libro extends Escrito{
 	}
 	
 	public String toString() {
-		return super.getOrigen()+ "\n"+
-			   super.getTitulo()+ "\n"+
-			   super.getPaginas()+ "\n"+
+		return super.resumen()+ "\n"+
 			   this.co_autor+ "\n"+
 			   this.editorial+ "\n"+
 			   this.edicion;	   

@@ -20,8 +20,7 @@ public class Periodico extends Escrito{
 	public String toString() {
 		return super.resumen()+ "\n"+
 			   this.fecha+ "\n"+
-			   this.primicia+ "\n"+
-			   this.interpretacion;			   
+			   this.primicia;	   
 	}
 	
 	public int palabrasTotales(int pags) {
